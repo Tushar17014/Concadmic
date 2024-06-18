@@ -13,7 +13,7 @@ function events() {
         <div className="card-row">
 
           <div className="card">
-            <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/opportunity/gallery/625b946762b20_jiit_osa.png" className="card-img" alt="image"/>
+            <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/opportunity/gallery/625b946762b20_jiit_osa.png" className="card-img" alt="This is a photo"/>
             <div className="card-detail">
               <h3>Optica Hackathon</h3>
               <p>
@@ -26,7 +26,7 @@ function events() {
           </div>
 
           <div className="card">
-            <img src="http://saacmag.com/news/wp-content/uploads/2018/12/IMG_20181220_131018.jpg" className="card-img" alt="image"/>
+            <img src="http://saacmag.com/news/wp-content/uploads/2018/12/IMG_20181220_131018.jpg" className="card-img" alt="This is a photo"/>
             <div className="card-detail">
               <h3>IIT-BHU Fest</h3>
               <p>
@@ -39,7 +39,7 @@ function events() {
           </div>
 
           <div className="card">
-            <img src="https://s3.ap-south-1.amazonaws.com/ulektzmumbai/event_dir/photos/mindspark%202023@2x.png" className="card-img" alt="image"/>
+            <img src="https://s3.ap-south-1.amazonaws.com/ulektzmumbai/event_dir/photos/mindspark%202023@2x.png" className="card-img" alt="This is a photo"/>
             <div className="card-detail">
               <h3>Pune Fest "MindSpark"</h3>
               <p>
@@ -52,7 +52,7 @@ function events() {
           </div>
 
           <div className="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/IEEE_logo.svg/1200px-IEEE_logo.svg.png" className="card-img" alt="image"/>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/IEEE_logo.svg/1200px-IEEE_logo.svg.png" className="card-img" alt="This is a photo"/>
             <div className="card-detail">
               <h3>3rd ICSMDI</h3>
               <p>
@@ -65,7 +65,7 @@ function events() {
           </div>
 
           <div className="card">
-            <img src="https://www.jaipuria.ac.in/wp-content/uploads/2022/12/jai-utsav-Indore-2022-23.jpg" className="card-img" alt="image"/>
+            <img src="https://www.jaipuria.ac.in/wp-content/uploads/2022/12/jai-utsav-Indore-2022-23.jpg" className="card-img" alt="This is a photo"/>
             <div className="card-detail">
               <h3>JAI UTSAV-Jaipuria</h3>
               <p>
