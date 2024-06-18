@@ -1,0 +1,277 @@
+//***************** Header CSS ********************
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 90%;
+    background-color: rgba(153, 230, 153, 0.867);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px ;
+    display: flex;
+}
+
+.nav-item{
+    font-size: large !important;
+    align-items: center !important;
+    transition: 0.25s !important;
+    transition-timing-function: linear !important;
+    margin: 2px;
+    border: 1px solid none;
+
+}
+
+.navbar-brand{
+    color:black !important;
+    margin-left: 15px !important;
+    font-size: 25px !important;
+    font-family: 'Metal Mania';
+}
+
+.nav-item:hover{
+    background-color: rgb(136, 195, 224,0.5);
+    border-radius: 5px;
+    color:black !important;
+    
+}
+
+.active{
+    background-color: rgb(136, 195, 224,0.9);
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.profileLogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.profileImg{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.profileName{
+  display: flex;
+  width:100%;
+  align-items: center;
+}
+
+.color{
+    background-color: transparent;
+    border: none !important;
+    border-radius: none !important;
+}
+
+// ***************** BlogSection CSS ********************
+
+.blog-heading {
+	font-size: 24px;
+	color: #222;
+    border-bottom: 1px solid #777;
+}
+
+.blogs-img {
+    height: 200px;
+	 border-radius: 5px;
+	overflow: hidden;
+	position: relative;
+	top: 0;
+	box-shadow: (0, 2px, 3px, 1px, rgba(0,0,0,0));
+	transition: (all 0.5s);
+}
+
+.blogs-img > img {
+    height: 260px;
+	min-width: 100%;
+}
+
+.hover-blogs-img:hover > .blogs-img {
+    top: -7px;
+	box-shadow: (0, 2px, 3px, 1px, rgba(255,255,255,0.6));
+}
+
+.title {
+    font-size: 17px;
+	color: #222!important;
+	font-weight: 800;
+    font-family: "Poppins";
+    text-decoration: none;
+	display: block;
+}
+
+
+.category {
+    display: inline-block;
+    position: relative;
+    background-color: #4287f5;
+    padding: 4px 8px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: none;
+    line-height: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+.fa-trash {
+	color: #c43421 !important;
+}
+
+.fa-edit {
+	color: lightsalmon !important;
+}
+
+.meta-info {
+    font-size: 15px;
+	color: #222;
+	display: block;
+    font-family: "Poppins";
+    text-decoration: none;
+}
+
+.blog-single-content .meta-info {
+	margin-top: 8px;
+	border-bottom: 1px solid #777;
+	margin-bottom: 15px;
+}
+
+.author {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 15px !important;	
+}
+
+.short-description {
+    font-size: 14px;
+	color: #777;
+}
+
+.btn-read {
+    background: #544e66 !important;
+	border-radius: 10px !important;
+	color: #fff!important;
+	padding: 5px 10px!important;
+	float: left;
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+.text-white{
+	color: white !important;
+}
+
+// ***************** Tags CSS ********************
+
+.tags > a {
+    text-decoration: none;
+}
+.tag {
+	background: #565656;
+	padding: 10px 15px;
+	color: rgb(238, 229, 229) !important;
+	transition: (0.5s);
+	margin-right: 8px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+    border-radius: 10px !important;
+    a{
+        color: white ;
+    }
+    
+}
+.tag:hover, .tag:focus {
+	background: yellow;
+	color: rgb(20, 3, 3) !important;
+	text-decoration: none;
+    a{
+        color: black;
+    }
+}
+
+.white-text{
+	color: #fff;
+}
+
+
+//***************** Spinner CSS ********************
+
+.spinner{
+    width:3rem;
+    height: 3rem;
+}
+
+//Category CSS
+.widget {
+	position: relative;
+    display: block;
+    margin-bottom: 3rem;
+}
+.widget ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.link-widget li {
+    padding: 1.2rem 0.8rem 1.7rem;
+    text-transform: capitalize;
+    line-height: 1;
+    font-weight: 500;
+    position: relative;
+    margin: 0;
+    border-bottom: 1px dashed #dadada;
+}
+
+.link-widget li:last-child {
+    border-bottom: 0 dashed #dadada;
+}
+
+.link-widget li span {
+    position: absolute;
+    right: 0;
+}
+
+.text-white{
+    color: #dadada;
+}
+
+//ChatIcon
+
+.chat-icon {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 999;
+	transition: .5s;
+	cursor: pointer;
+	z-index: 1;
+	span {
+		width: 50px;
+		height: 50px;
+		display: table;
+		background: transparent;
+		color: white;
+		text-align: center;
+		border-radius :4px;
+	}
+	i {
+        height: 40px;
+        display: table-cell;
+        vertical-align: middle;
+        background-color: #1f347b;
+        border-radius: 10px;
+	}
+  }
